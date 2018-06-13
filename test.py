@@ -21,7 +21,7 @@ sign_in.send_keys(Keys.RETURN)
 driver.implicitly_wait(10)
 
 enter_pass = driver.find_element_by_xpath("//div[containts(@class, 'Xb9hP')]")
-enter_pass.send_keys('testestest')
+enter_pass.send_keys('testestest')#enter pass here
 enter_pass.send_keys(Keys.RETURN)
 
 
@@ -32,7 +32,7 @@ enter_pass.send_keys(Keys.RETURN)
 # module for netflix login
 # driver.get('http://www.netflix.com\login')
 
-
+ 
 # sign_in = driver.find_element_by_id('lbl-email')
 # sign_in.send_keys('jmak209@gmail.com')
 
